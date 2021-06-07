@@ -1,0 +1,50 @@
+.fondo-menu {
+  background-color: #FFFFFF;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.menu {
+  background-color: #FFFFFF;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  list-style: none; /* kill the bullet points */
+  padding: 10px;
+}
+
+.menu li{
+  display: inline-block; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  color: #6D71DD;
+}
+
+
+.menu li:hover {
+  background-color: lightblue;
+  color: whites;
+}
+.menu a{
+  display: inline-block; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  color: #6D71DD;
+  font-size: 23px;
+}
+
+.menu-cursos {
+
+  list-style: none; /* kill the bullet points */
+  padding: 10px;
+}
+
+.menu-cursos li{
+  display: inline-block; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  color: white;
+}
+
+.menu-cursos a{
+  color: white;
+  background-color: grey;
+  font-size: 23px;
+}
