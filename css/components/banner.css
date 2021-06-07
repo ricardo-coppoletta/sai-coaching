@@ -1,0 +1,30 @@
+.banner {
+  /* 1. Set a background image */
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 50%), url(../../images/coaching.jpg);
+  /* 2. Make the background image cover the banner div */
+  background-size: cover;
+  /* 3. Center the image */
+  background-position: left;
+  padding:  100px 0px 0px 0px;
+  color: white;
+  width: cover;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 0px;
+  text-align: right;
+}
+.banner h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 1;
+  padding-bottom: 0px;
+  text-align: right;
+}
+
+.banner a {
+  text-align: right;
+}
