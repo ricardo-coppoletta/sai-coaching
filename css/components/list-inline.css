@@ -1,0 +1,37 @@
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding: 10px; /* kill remaining padding left */
+  background-color: #054262;
+  text-align: right;
+  margin: 0px;
+  color: white;
+
+}
+.list-inline li {
+  display: inline-block; /* change list item behavior to inline */
+  padding: 0px 0px; /* add som left/right padding between list items */
+  margin: 0px 10px;
+
+}
+
+.list-inline li:hover {
+  background-color: lightblue;
+  color: whites;
+  padding: 0px 0px;
+
+}
+
+.list-inline a {
+  color: white;
+}
+
+
+.list-inline i {
+  font-size: 17px;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.fa .fab {
+  line-height: 1;
+}
