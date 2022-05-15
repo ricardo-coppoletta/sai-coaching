@@ -1,45 +1,44 @@
 .banner {
-  /* 1. Set a background image */
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 50%), url(../../images/fondodegradado.jpg);
-  /* 2. Make the background image cover the banner div */
-  background-size: cover;
-  /* 3. Center the image */
-  background-position: left;
-  padding:  10px 0px 40px 0px;
-  color: white;
-  width: cover;
-}
-
-.banner h1 {
-  color: white;
-  font-size: 2em;
-  padding-bottom: 0px;
-  text-align: right;
-}
-.banner h2 {
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
-  opacity: 1;
-  padding-bottom: 0px;
-  text-align: right;
-}
-
-.banner a {
-  text-align: right;
-}
-
-
-
-#img-coaching{
-  width: 400px;
-  float: center;
-  padding: 80px;
-}
-
-#cabecera { width: cover; height: 400px; background-image: "../images/fondodegradado.jpg"; margin: auto}
-#logo { width: 100px; height: 100px; background-image: "../images/fondodegradado.jpg";
-       position: center ; left: 150px; top: 150px; margin: 0px;}
-#apply-section { width: 300px; height: 400px; background-color: lightgrey;
-  margin-left: auto; margin-right: auto; }
-
+    /* 1. Set a background image */
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.1) 50%), url(../../images/fondodegradado.jpg);
+    /* 2. Make the background image cover the banner div */
+    background-size: cover;
+    /* 3. Center the image */
+    background-position: left;
+    padding:  10px 0px 40px 0px;
+    color: white;
+    width: cover;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .banner h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1;
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  
+  .banner a {
+    text-align: right;
+  }
+  
+  
+  
+  #img-coaching{
+    width: 400px;
+    float: center;
+    padding: 80px;
+  }
+  
+  #cabecera { width: cover; height: 400px; background-image: "../images/fondodegradado.jpg"; margin: auto}
+  #logo { width: 100px; height: 100px; background-image: "../images/fondodegradado.jpg";
+         position: center ; left: 150px; top: 150px; margin: 0px;}
+  #apply-section { width: 300px; height: 400px;
+    margin-left: auto; margin-right: auto; }

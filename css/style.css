@@ -13,7 +13,6 @@ body {
   font-size: 15px;
   margin: 0 auto;
   background-image: url("../images/fondodegradado.jpg");
-  background-color: grey;
   background-repeat: repeat;
 }
 h1,h2,h3{
@@ -29,4 +28,3 @@ a{
   width: cover;
   margin: 0 auto;
 }
-
